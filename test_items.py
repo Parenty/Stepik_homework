@@ -10,7 +10,8 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 def test_check_purchase_button(browser):
     browser.get(link)
-    # Согласно заданию запускайте код так: pytest --language=es test_items.py
+    # Пожалуйста, убедитесь что у вас в директориях выше нет файла conftest.py
+    # Согласно заданию запускайте код так: pytest --language=es
     # Проверяющим: Если хотите проверить смену языка - раскоментируйте следующую строчку
     # time.sleep(30)
     try:
